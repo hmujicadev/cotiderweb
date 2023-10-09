@@ -1,0 +1,87 @@
+/* ----------------------------------------------------------------
+	Custom CSS
+
+	Add all your Custom Styled CSS here for New Styles or
+	Overwriting Default Theme Styles for Better Hanlding Updates
+-----------------------------------------------------------------*/
+/* modificacion de clase para la flecha presente en el home */
+.one-page-arrow {
+  bottom: 30%;
+}
+#logoTop {
+  position: absolute;
+  z-index: 200;
+  top: 0;
+}
+.text-color-theme {
+  color: #1abc9c;
+}
+
+#slider + #header.transparent-header.full-header #header-wrap {
+  border-top: none;
+}
+
+.owl-carousel.owl-loaded {
+  cursor: grab;
+}
+.owl-carousel.owl-loaded:active {
+  cursor: grabbing;
+}
+.bg-gray {
+  background-color: rgb(229, 227, 223);
+}
+#cotiburguer:hover {
+  -moz-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  -o-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  transform: scale(1.5);
+  transition-duration: 0.5s;
+}
+
+#cotiburguer {
+  transition-duration: 0.5s;
+  width: 25px;
+  height: 25px;
+}
+
+#side-panel-trigger a {
+  width: 25px;
+  height: 25px;
+}
+/* 
+ #header.sticky-header:has(.static-header) .side-panel-trigger-cotider{
+	margin-top: 5px!important;
+} */
+.home-image-device {
+  max-width: 27%;
+  position: absolute;
+  right: 15%;
+  z-index: 3;
+  transition: all 0.3s linear;
+}
+#footer {
+  border-top: none;
+}
+.footer-wrapper .footer-logo-wrapper {
+  max-width: 50%;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 768px) {
+  .side-panel-trigger-cotider {
+    right: 10px;
+  }
+  .home-image-device {
+    display: none;
+  }
+  .footer-wrapper .footer-logo-wrapper {
+    max-width: 100%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #cotiburguer {
+    width: 20px;
+    height: 20px;
+  }
+}
